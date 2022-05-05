@@ -14,9 +14,30 @@ Labs.MenuBar {
         title: i18nc("@menu", "File")
 
         Labs.MenuItem {
+            text: i18nc("@menu-action", "Generate Text")
+            icon.name: "xml-text-new"
+            onTriggered: Controller.fetch()
+        }
+
+        Labs.MenuItem {
             text: i18nc("@menu-action", "Quit")
             icon.name: "application-exit"
             onTriggered: Qt.quit()
+        }
+    }
+
+    Labs.Menu {
+        title: i18nc("@menu", "Edit")
+
+        Labs.MenuItem {
+            text: i18nc("@menu-action", "Copy to Clipboard")
+            icon.name: "edit-copy"
+            onTriggered: {
+                textArea.selectAll()
+                textArea.copy()
+                textArea.moveCursorSelection(0, TextEdit.SelectCharacters)
+                textArea.deselect()
+            }
         }
     }
 
