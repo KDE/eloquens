@@ -8,5 +8,5 @@ Exec=eloquens
 Icon=org.kde.eloquens
 Type=Application
 Terminal=false
-Categories=Qt;KDE;Utility;
+Categories=Qt;KDE;Development;Utility;
 SingleMainWindow=true
