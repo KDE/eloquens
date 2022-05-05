@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+    http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+<!--
+SPDX-FileCopyrightText: 2022 Felipe Kinoshita <kinofhek@gmail.com>
+SPDX-License-Identifier: LGPL-2.0-or-later
+-->
+    <group name="General">
+        <entry name="PreviousText" type="String">
+            <label>Stores the previous text.</label>
+            <default></default>
+        </entry>
+        <entry name="Paragraphs" type="Int">
+            <label>How many paragraphs the text will have.</label>
+            <default>3</default>
+        </entry>
+        <entry name="ParagraphLength" type="String">
+            <label>How long will each paragraph be.</label>
+            <default>medium</default>
+        </entry>
+        <entry name="BoldAndItalic" type="Int">
+            <label>Determines if the text will have bold and italic text.</label>
+            <default>0</default>
+        </entry>
+        <entry name="Links" type="Int">
+            <label>Determines if the text will have links.</label>
+            <default>0</default>
+        </entry>
+        <entry name="Code" type="Int">
+            <label>Determines if the text will have the code tag.</label>
+            <default>0</default>
+        </entry>
+        <entry name="UnorderedLists" type="Int">
+            <label>Determines if the text will have unordered lists.</label>
+            <default>0</default>
+        </entry>
+        <entry name="OrderedLists" type="Int">
+            <label>Determines if the text will have ordered lists.</label>
+            <default>0</default>
+        </entry>
+        <entry name="DescriptionLists" type="Int">
+            <label>Determines if the text will have description lists.</label>
+            <default>0</default>
+        </entry>
+        <entry name="Blockquotes" type="Int">
+            <label>Determines if the text will have blockquotes.</label>
+            <default>0</default>
+        </entry>
+        <entry name="Headings" type="Int">
+            <label>Determines if the text will have headings.</label>
+            <default>0</default>
+        </entry>
+        <entry name="AllCaps" type="Int">
+            <label>Determines if the text will be all caps.</label>
+            <default>0</default>
+        </entry>
+    </group>
+</kcfg>
