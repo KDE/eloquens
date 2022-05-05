@@ -65,11 +65,10 @@ Kirigami.ApplicationWindow {
                     function onResponse(response) {
                         textArea.text = response
                         Config.previousText = response
+                        Config.save()
                     }
                 }
             }
         }
     }
-
-    Component.onCompleted: Controller.fetch()
 }
