@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: LGPL-2.1-or-later
 
 #include <QApplication>
+#include <QCommandLineParser>
 #include <QIcon>
 #include <QQmlApplicationEngine>
 #include <QUrl>
@@ -54,6 +55,12 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     Controller controller;
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Controller", &controller);
+
+    QCommandLineParser parser;
+
+    aboutData.setupCommandLine(&parser);
+    parser.process(app);
+    aboutData.processCommandLine(&parser);
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
