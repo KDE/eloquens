@@ -23,6 +23,7 @@ Kirigami.Page {
             QQC2.SpinBox {
                 from: 1
                 to: 100
+                value: Config.paragraphs
 
                 onValueModified: {
                     Config.paragraphs = value
