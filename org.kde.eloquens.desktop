@@ -3,7 +3,17 @@
 
 [Desktop Entry]
 Name=Eloquens
+Name[ca]=Eloquens
+Name[es]=Eloquens
+Name[sv]=Eloquens
+Name[uk]=Eloquens
+Name[x-test]=xxEloquensxx
 Comment=Generate the lorem ipsum text
+Comment[ca]=Genera el text «lorem ipsum»
+Comment[es]=Generador del texto lorem ipsum
+Comment[sv]=Generera lorem ipsum text
+Comment[uk]=Створення тексту-замінника Lorem Ipsum
+Comment[x-test]=xxGenerate the lorem ipsum textxx
 Exec=eloquens
 Icon=org.kde.eloquens
 Type=Application
