@@ -60,6 +60,12 @@
     <p xml:lang="uk">Eloquens спрощує створення текстів-замінників lorem ipsum; ви можете додавати посилання, неупорядковані і упорядковані списки, заголовки та інші елементи.</p>
     <p xml:lang="x-test">xxEloquens allows you to easily generate the lorem ipsum text, you can add links, unordered/ordered list, headings and much more.xx</p>
   </description>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://cdn.kde.org/screenshots/eloquens/eloquens.png</image>
+      <caption>Main View</caption>
+    </screenshot>
+  </screenshots>
   <requires>
     <display_length compare="ge">360</display_length>
   </requires>
