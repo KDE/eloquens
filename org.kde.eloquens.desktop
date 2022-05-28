@@ -4,6 +4,7 @@
 [Desktop Entry]
 Name=Eloquens
 Name[ca]=Eloquens
+Name[ca@valencia]=Eloquens
 Name[es]=Eloquens
 Name[fr]=Eloquens
 Name[it]=Eloquens
@@ -17,6 +18,7 @@ Name[uk]=Eloquens
 Name[x-test]=xxEloquensxx
 Comment=Generate the lorem ipsum text
 Comment[ca]=Genera el text «lorem ipsum»
+Comment[ca@valencia]=Genera el text «lorem ipsum»
 Comment[es]=Generador del texto lorem ipsum
 Comment[fr]=Générer le texte « lorem ipsum »
 Comment[it]=Genera il testo lorem ipsum
