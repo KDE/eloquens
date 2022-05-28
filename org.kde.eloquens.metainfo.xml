@@ -7,6 +7,7 @@
   <id>org.kde.eloquens</id>
   <name>Eloquens</name>
   <name xml:lang="ca">Eloquens</name>
+  <name xml:lang="ca-valencia">Eloquens</name>
   <name xml:lang="es">Eloquens</name>
   <name xml:lang="fr">Eloquens</name>
   <name xml:lang="it">Eloquens</name>
@@ -20,6 +21,7 @@
   <name xml:lang="x-test">xxEloquensxx</name>
   <summary>Generate the lorem ipsum text</summary>
   <summary xml:lang="ca">Genera el text «lorem ipsum»</summary>
+  <summary xml:lang="ca-valencia">Genera el text «lorem ipsum»</summary>
   <summary xml:lang="es">Generar el texto lorem ipsum</summary>
   <summary xml:lang="fr">Générer le texte « lorem ipsum »</summary>
   <summary xml:lang="it">Genera il testo lorem ipsum</summary>
@@ -35,6 +37,7 @@
   <project_license>GPL-3.0-or-later</project_license>
   <developer_name>KDE Community, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ca">La comunitat KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ca-valencia">La comunitat KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="es">La Comunidad KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="fr">Communauté KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="it">Comunità KDE, Felipe Kinoshita</developer_name>
@@ -49,6 +52,7 @@
   <description>
     <p>Eloquens allows you to easily generate the lorem ipsum text, you can add links, unordered/ordered list, headings and much more.</p>
     <p xml:lang="ca">L'Eloquens permet generar fàcilment el text «lorem ipsum», es poden afegir enllaços, llistes sense ordenar/ordenades, capçaleres i molt més.</p>
+    <p xml:lang="ca-valencia">Eloquens permet generar fàcilment el text «lorem ipsum», es poden afegir enllaços, llistes sense ordenar/ordenades, capçaleres i molt més.</p>
     <p xml:lang="es">Eloquens le permite generar con facilidad el texto lorem ipsum. Puede añadir enlaces, listas ordenadas y sin ordenar, cabeceras y mucho más.</p>
     <p xml:lang="fr">L'outil « Eloquens » facilite la génération de texte « lorem ipsum ». Vous pouvez ajouter des liens, les listes ordonnées / non-ordonnées, des en-têtes et bien plus.</p>
     <p xml:lang="it">Eloquens ti permette di generare facilmente il testo lorem ipsum, puoi aggiungere collegamenti, elenchi non ordinati/ordinati, intestazioni e molto altro.</p>
