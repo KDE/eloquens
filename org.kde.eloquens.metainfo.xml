@@ -71,6 +71,9 @@
       <caption xml:lang="ca">Vista principal</caption>
       <caption xml:lang="es">Vista principal</caption>
       <caption xml:lang="nl">Hoofdweergave</caption>
+      <caption xml:lang="sl">Glavni pogled</caption>
+      <caption xml:lang="sv">Huvudvy</caption>
+      <caption xml:lang="tr">Ana Görünüm</caption>
       <caption xml:lang="uk">Головне вікно</caption>
       <caption xml:lang="x-test">xxMain Viewxx</caption>
     </screenshot>
