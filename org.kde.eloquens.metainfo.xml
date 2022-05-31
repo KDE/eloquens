@@ -69,6 +69,7 @@
       <image>https://cdn.kde.org/screenshots/eloquens/eloquens.png</image>
       <caption>Main View</caption>
       <caption xml:lang="ca">Vista principal</caption>
+      <caption xml:lang="ca-valencia">Vista principal</caption>
       <caption xml:lang="es">Vista principal</caption>
       <caption xml:lang="nl">Hoofdweergave</caption>
       <caption xml:lang="sl">Glavni pogled</caption>
