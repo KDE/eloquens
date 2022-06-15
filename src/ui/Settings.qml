@@ -28,6 +28,7 @@ Kirigami.Page {
                 onValueModified: {
                     Config.paragraphs = value
                     Config.save()
+                    Controller.fetch()
                 }
             }
         }
@@ -58,6 +59,7 @@ Kirigami.Page {
                     }
 
                     Config.save()
+                    Controller.fetch()
                 }
             }
         }
@@ -68,6 +70,7 @@ Kirigami.Page {
             onCheckedChanged: {
                 Config.boldAndItalic = checked ? 1 : 0
                 Config.save()
+                Controller.fetch()
             }
         }
 
@@ -77,6 +80,7 @@ Kirigami.Page {
             onCheckedChanged: {
                 Config.links = checked ? 1 : 0
                 Config.save()
+                Controller.fetch()
             }
         }
 
@@ -86,6 +90,7 @@ Kirigami.Page {
             onCheckedChanged: {
                 Config.code = checked ? 1 : 0
                 Config.save()
+                Controller.fetch()
             }
         }
 
@@ -95,6 +100,7 @@ Kirigami.Page {
             onCheckedChanged: {
                 Config.unorderedLists = checked ? 1 : 0
                 Config.save()
+                Controller.fetch()
             }
         }
 
@@ -113,6 +119,7 @@ Kirigami.Page {
             onCheckedChanged: {
                 Config.descriptionLists = checked ? 1 : 0
                 Config.save()
+                Controller.fetch()
             }
         }
 
@@ -122,6 +129,7 @@ Kirigami.Page {
             onCheckedChanged: {
                 Config.blockquotes = checked ? 1 : 0
                 Config.save()
+                Controller.fetch()
             }
         }
 
@@ -131,6 +139,7 @@ Kirigami.Page {
             onCheckedChanged: {
                 Config.headings = checked ? 1 : 0
                 Config.save()
+                Controller.fetch()
             }
         }
 
@@ -140,6 +149,7 @@ Kirigami.Page {
             onCheckedChanged: {
                 Config.allCaps = checked ? 1 : 0
                 Config.save()
+                Controller.fetch()
             }
         }
     }
