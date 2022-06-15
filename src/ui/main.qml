@@ -18,6 +18,24 @@ Kirigami.ApplicationWindow {
     minimumWidth: Kirigami.Units.gridUnit * 20
     minimumHeight: Kirigami.Units.gridUnit * 25
 
+    Timer {
+        id: saveWindowGeometryTimer
+        interval: 1000
+        onTriggered: App.saveWindowGeometry(root)
+    }
+
+    Connections {
+        id: saveWindowGeometryConnections
+        enabled: false // Disable on startup to avoid writing wrong values if the window is hidden
+        target: root
+
+        function onClosing() { App.saveWindowGeometry(root); }
+        function onWidthChanged() { saveWindowGeometryTimer.restart(); }
+        function onHeightChanged() { saveWindowGeometryTimer.restart(); }
+        function onXChanged() { saveWindowGeometryTimer.restart(); }
+        function onYChanged() { saveWindowGeometryTimer.restart(); }
+    }
+
     Loader {
         active: !Kirigami.Settings.isMobile
         sourceComponent: GlobalMenu {}
@@ -69,6 +87,12 @@ Kirigami.ApplicationWindow {
                     }
                 }
             }
+        }
+    }
+
+    Component.onCompleted: {
+        if (!Kirigami.Settings.isMobile) {
+            saveWindowGeometryConnections.enabled = true
         }
     }
 }
