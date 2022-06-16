@@ -72,7 +72,7 @@ Kirigami.ApplicationWindow {
                         visible: textArea.text.length <= 0
                         anchors.centerIn: parent
                         width: parent.width - (Kirigami.Units.smallSpacing * 4)
-                        text: i18n("Click 'Generate' to get started!")
+                        text: i18n("Click 'Generate Text' to get started!")
                     }
                 }
 
