@@ -67,6 +67,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     aboutData.processCommandLine(&parser);
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
+    KLocalizedString::setApplicationDomain("eloquens");
     engine.load(QUrl(QStringLiteral("qrc:///main.qml")));
 
     if (engine.rootObjects().isEmpty()) {
