@@ -42,7 +42,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
                          // Copyright Statement.
                          i18n("© 2022"));
     aboutData.addAuthor(i18nc("@info:credit", "Felipe Kinoshita"), i18nc("@info:credit", "Author"), QStringLiteral("kinofhek@gmail.com"), QStringLiteral("https://fhek.gitlab.io"));
-    aboutData.setBugAddress("https://invent.kde.org/fhek/eloquens/-/issues/new");
+    aboutData.setBugAddress("https://bugs.kde.org/buglist.cgi?component=General&amp;product=Eloquens");
     KAboutData::setApplicationData(aboutData);
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.eloquens")));
 
