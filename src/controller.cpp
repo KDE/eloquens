@@ -33,9 +33,7 @@ void Controller::fetch()
 
     QNetworkRequest request = QNetworkRequest(url);
 
-    QNetworkReply* reply;
-
-    reply = m_manager.get(request);
+    QNetworkReply* reply = m_manager.get(request);
 
     // read data
     QObject::connect(reply, &QNetworkReply::finished, [this, reply]() {
