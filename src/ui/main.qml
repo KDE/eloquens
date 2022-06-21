@@ -60,7 +60,7 @@ Kirigami.ApplicationWindow {
                 textMargin: 0
                 readOnly: true
 
-                font.family: "Liberation Serif";
+                font.family: "serif";
                 font.pixelSize: Kirigami.Units.gridUnit
 
                 background: Rectangle {
