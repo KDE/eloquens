@@ -20,41 +20,41 @@ SPDX-License-Identifier: LGPL-2.0-or-later
             <label>How long will each paragraph be.</label>
             <default>medium</default>
         </entry>
-        <entry name="BoldAndItalic" type="Int">
+        <entry name="BoldAndItalic" type="Bool">
             <label>Determines if the text will have bold and italic text.</label>
-            <default>0</default>
+            <default>false</default>
         </entry>
-        <entry name="Links" type="Int">
+        <entry name="Links" type="Bool">
             <label>Determines if the text will have links.</label>
-            <default>0</default>
+            <default>false</default>
         </entry>
-        <entry name="Code" type="Int">
+        <entry name="Code" type="Bool">
             <label>Determines if the text will have the code tag.</label>
-            <default>0</default>
+            <default>false</default>
         </entry>
-        <entry name="UnorderedLists" type="Int">
+        <entry name="UnorderedLists" type="Bool">
             <label>Determines if the text will have unordered lists.</label>
-            <default>0</default>
+            <default>false</default>
         </entry>
-        <entry name="OrderedLists" type="Int">
+        <entry name="OrderedLists" type="Bool">
             <label>Determines if the text will have ordered lists.</label>
-            <default>0</default>
+            <default>false</default>
         </entry>
-        <entry name="DescriptionLists" type="Int">
+        <entry name="DescriptionLists" type="Bool">
             <label>Determines if the text will have description lists.</label>
-            <default>0</default>
+            <default>false</default>
         </entry>
-        <entry name="Blockquotes" type="Int">
+        <entry name="Blockquotes" type="Bool">
             <label>Determines if the text will have blockquotes.</label>
-            <default>0</default>
+            <default>false</default>
         </entry>
-        <entry name="Headings" type="Int">
+        <entry name="Headings" type="Bool">
             <label>Determines if the text will have headings.</label>
-            <default>0</default>
+            <default>false</default>
         </entry>
-        <entry name="AllCaps" type="Int">
+        <entry name="AllCaps" type="Bool">
             <label>Determines if the text will be all caps.</label>
-            <default>0</default>
+            <default>false</default>
         </entry>
     </group>
 </kcfg>

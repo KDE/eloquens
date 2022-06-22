@@ -66,9 +66,9 @@ Kirigami.Page {
 
         QQC2.CheckBox {
             text: i18n("Show Bold and Italic text")
-            checked: Config.boldAndItalic == 1 ? true : false
+            checked: Config.boldAndItalic
             onCheckedChanged: {
-                Config.boldAndItalic = checked ? 1 : 0
+                Config.boldAndItalic = checked
                 Config.save()
                 Controller.fetch()
             }
@@ -76,9 +76,9 @@ Kirigami.Page {
 
         QQC2.CheckBox {
             text: i18n("Show Links")
-            checked: Config.links == 1 ? true : false
+            checked: Config.links
             onCheckedChanged: {
-                Config.links = checked ? 1 : 0
+                Config.links = checked
                 Config.save()
                 Controller.fetch()
             }
@@ -86,9 +86,9 @@ Kirigami.Page {
 
         QQC2.CheckBox {
             text: i18n("Show Code blocks")
-            checked: Config.code == 1 ? true : false
+            checked: Config.code
             onCheckedChanged: {
-                Config.code = checked ? 1 : 0
+                Config.code = checked
                 Config.save()
                 Controller.fetch()
             }
@@ -96,9 +96,9 @@ Kirigami.Page {
 
         QQC2.CheckBox {
             text: i18n("Show Unordered Lists")
-            checked: Config.unorderedLists == 1 ? true : false
+            checked: Config.unorderedLists
             onCheckedChanged: {
-                Config.unorderedLists = checked ? 1 : 0
+                Config.unorderedLists = checked
                 Config.save()
                 Controller.fetch()
             }
@@ -106,18 +106,18 @@ Kirigami.Page {
 
         QQC2.CheckBox {
             text: i18n("Show Ordered Lists")
-            checked: Config.orderedLists == 1 ? true : false
+            checked: Config.orderedLists
             onCheckedChanged: {
-                Config.orderedLists = checked ? 1 : 0
+                Config.orderedLists = checked
                 Config.save()
             }
         }
 
         QQC2.CheckBox {
             text: i18n("Show Description Lists")
-            checked: Config.descriptionLists == 1 ? true : false
+            checked: Config.descriptionLists
             onCheckedChanged: {
-                Config.descriptionLists = checked ? 1 : 0
+                Config.descriptionLists = checked
                 Config.save()
                 Controller.fetch()
             }
@@ -125,9 +125,9 @@ Kirigami.Page {
 
         QQC2.CheckBox {
             text: i18n("Show Blockquotes")
-            checked: Config.blockquotes == 1 ? true : false
+            checked: Config.blockquotes
             onCheckedChanged: {
-                Config.blockquotes = checked ? 1 : 0
+                Config.blockquotes = checked
                 Config.save()
                 Controller.fetch()
             }
@@ -135,9 +135,9 @@ Kirigami.Page {
 
         QQC2.CheckBox {
             text: i18n("Show headings")
-            checked: Config.headings == 1 ? true : false
+            checked: Config.headings
             onCheckedChanged: {
-                Config.headings = checked ? 1 : 0
+                Config.headings = checked
                 Config.save()
                 Controller.fetch()
             }
@@ -145,9 +145,9 @@ Kirigami.Page {
 
         QQC2.CheckBox {
             text: i18n("All Caps")
-            checked: Config.allCaps == 1 ? true : false
+            checked: Config.allCaps
             onCheckedChanged: {
-                Config.allCaps = checked ? 1 : 0
+                Config.allCaps = checked
                 Config.save()
                 Controller.fetch()
             }

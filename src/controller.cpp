@@ -21,15 +21,15 @@ void Controller::fetch()
     QUrl url = QString("https://loripsum.net/generate.php?p=%1&l=%2&d=%3&a=%4&co=%5&ul=%6&ol=%7&dl=%8&bq=%9&h=%10&ac=%11")
         .arg(Config::self()->paragraphs())
         .arg(Config::self()->paragraphLength())
-        .arg(Config::self()->boldAndItalic())
-        .arg(Config::self()->links())
-        .arg(Config::self()->code())
-        .arg(Config::self()->unorderedLists())
-        .arg(Config::self()->orderedLists())
-        .arg(Config::self()->descriptionLists())
-        .arg(Config::self()->blockquotes())
-        .arg(Config::self()->headings())
-        .arg(Config::self()->allCaps());
+        .arg(booleanToInt(Config::self()->boldAndItalic()))
+        .arg(booleanToInt(Config::self()->links()))
+        .arg(booleanToInt(Config::self()->code()))
+        .arg(booleanToInt(Config::self()->unorderedLists()))
+        .arg(booleanToInt(Config::self()->orderedLists()))
+        .arg(booleanToInt(Config::self()->descriptionLists()))
+        .arg(booleanToInt(Config::self()->blockquotes()))
+        .arg(booleanToInt(Config::self()->headings()))
+        .arg(booleanToInt(Config::self()->allCaps()));
 
     QNetworkRequest request = QNetworkRequest(url);
 
@@ -43,4 +43,9 @@ void Controller::fetch()
 
         reply->deleteLater(); // make sure to clean up
     });
+}
+
+int Controller::booleanToInt(bool boolean)
+{
+    return boolean ? 1 : 0;
 }

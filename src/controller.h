@@ -18,6 +18,8 @@ public:
 
     Q_SIGNAL void response(QString);
 
+    int booleanToInt(bool boolean);
+
 private:
     QNetworkAccessManager m_manager;
 };
