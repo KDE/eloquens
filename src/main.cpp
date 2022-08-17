@@ -24,7 +24,9 @@ constexpr auto APPLICATION_ID = "org.kde.eloquens";
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
     QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+#endif
     QApplication app(argc, argv);
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
 
