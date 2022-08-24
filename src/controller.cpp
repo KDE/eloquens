@@ -4,7 +4,6 @@
 #include <QClipboard>
 #include <QGuiApplication>
 #include <QJsonDocument>
-#include <QJsonObject>
 #include <QNetworkReply>
 #include <QUrlQuery>
 
