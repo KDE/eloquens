@@ -1,0 +1,196 @@
+# German translations for eloquens package.
+# Copyright (C) 2022 This file is copyright:
+# This file is distributed under the same license as the eloquens package.
+# Frederik Schwarzer <schwarzer@kde.org>, 2022.
+#
+# Automatically generated, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: eloquens\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-08-18 00:48+0000\n"
+"PO-Revision-Date: 2022-07-14 00:36+0200\n"
+"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 22.07.70\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Deutsches KDE-Übersetzerteam"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kde-i18n-de@kde.org"
+
+#: src/main.cpp:37
+#, kde-format
+msgctxt "@title"
+msgid "Eloquens"
+msgstr "Eloquens"
+
+#: src/main.cpp:41
+#, kde-format
+msgid "Generate lorem ipsum text"
+msgstr "Generieren Sie den „lorem ipsum“-Text"
+
+#: src/main.cpp:45
+#, kde-format
+msgid "© 2022"
+msgstr "Copyright 2022"
+
+#: src/main.cpp:46
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:46
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Autor"
+
+#: src/ui/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Datei"
+
+#: src/ui/GlobalMenu.qml:17
+#, kde-format
+msgctxt "@menu-action"
+msgid "Generate Text"
+msgstr "Text generieren"
+
+#: src/ui/GlobalMenu.qml:23
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Beenden"
+
+#: src/ui/GlobalMenu.qml:30
+#, kde-format
+msgctxt "@menu"
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: src/ui/GlobalMenu.qml:33
+#, kde-format
+msgctxt "@menu-action"
+msgid "Copy to Clipboard"
+msgstr "In die Zwischenablage kopieren"
+
+#: src/ui/GlobalMenu.qml:45
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Hilfe"
+
+#: src/ui/GlobalMenu.qml:48
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Probleme oder Wünsche berichten ..."
+
+#: src/ui/GlobalMenu.qml:54
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Eloquens"
+msgstr "Über Eloquens"
+
+#: src/ui/main.qml:14
+#, kde-format
+msgid "Eloquens"
+msgstr "Eloquens"
+
+#: src/ui/main.qml:75
+#, kde-format
+msgid "Click 'Generate Text' to get started!"
+msgstr ""
+
+#: src/ui/PageHeader.qml:19
+#, kde-format
+msgid "Generate Text"
+msgstr "Text generieren"
+
+#: src/ui/PageHeader.qml:33
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "In die Zwischenablage kopieren"
+
+#: src/ui/PageHeader.qml:52
+#, kde-format
+msgid "Configure Eloquens"
+msgstr "Eloquens einrichten"
+
+#: src/ui/PageHeader.qml:67
+#, kde-format
+msgid "About Eloquens"
+msgstr "Über Eloquens"
+
+#: src/ui/Settings.qml:14
+#, kde-format
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/ui/Settings.qml:21
+#, kde-format
+msgid "Paragraphs:"
+msgstr "Absätze:"
+
+#: src/ui/Settings.qml:38
+#, kde-format
+msgid "Paragraph Length:"
+msgstr "Absatzlänge:"
+
+#: src/ui/Settings.qml:68
+#, kde-format
+msgid "Show Bold and Italic text"
+msgstr "Fett und kursiv gedruckten Text anzeigen"
+
+#: src/ui/Settings.qml:78
+#, kde-format
+msgid "Show Links"
+msgstr "Verknüpfungen anzeigen"
+
+#: src/ui/Settings.qml:88
+#, kde-format
+msgid "Show Code blocks"
+msgstr "Code-Blöcke anzeigen"
+
+#: src/ui/Settings.qml:98
+#, kde-format
+msgid "Show Unordered Lists"
+msgstr "Unsortierte Listen anzeigen"
+
+#: src/ui/Settings.qml:108
+#, kde-format
+msgid "Show Ordered Lists"
+msgstr "Sortierte Listen anzeigen"
+
+#: src/ui/Settings.qml:117
+#, kde-format
+msgid "Show Description Lists"
+msgstr ""
+
+#: src/ui/Settings.qml:127
+#, kde-format
+msgid "Show Blockquotes"
+msgstr ""
+
+#: src/ui/Settings.qml:137
+#, kde-format
+msgid "Show headings"
+msgstr "Überschriften anzeigen"
+
+#: src/ui/Settings.qml:147
+#, kde-format
+msgid "All Caps"
+msgstr "Großschreibung"

@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eloquens\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-08-18 00:48+0000\n"
+"PO-Revision-Date: 2022-06-17 12:30+0100\n"
+"Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
+"Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POFile-SpellExtra: Eloquens lorem ipsum Felipe Kinoshita\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "José Nuno Pires"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "zepires@gmail.com"
+
+#: src/main.cpp:37
+#, kde-format
+msgctxt "@title"
+msgid "Eloquens"
+msgstr "Eloquens"
+
+#: src/main.cpp:41
+#, kde-format
+msgid "Generate lorem ipsum text"
+msgstr "Geração do texto 'lorem ipsum'"
+
+#: src/main.cpp:45
+#, kde-format
+msgid "© 2022"
+msgstr "© 2022"
+
+#: src/main.cpp:46
+#, kde-format
+msgctxt "@info:credit"
+msgid "Felipe Kinoshita"
+msgstr "Felipe Kinoshita"
+
+#: src/main.cpp:46
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr "Autoria"
+
+#: src/ui/GlobalMenu.qml:14
+#, kde-format
+msgctxt "@menu"
+msgid "File"
+msgstr "Ficheiro"
+
+#: src/ui/GlobalMenu.qml:17
+#, kde-format
+msgctxt "@menu-action"
+msgid "Generate Text"
+msgstr "Gerar o Texto"
+
+#: src/ui/GlobalMenu.qml:23
+#, kde-format
+msgctxt "@menu-action"
+msgid "Quit"
+msgstr "Sair"
+
+#: src/ui/GlobalMenu.qml:30
+#, kde-format
+msgctxt "@menu"
+msgid "Edit"
+msgstr "Editar"
+
+#: src/ui/GlobalMenu.qml:33
+#, kde-format
+msgctxt "@menu-action"
+msgid "Copy to Clipboard"
+msgstr "Copiar para a Área de Transferência"
+
+#: src/ui/GlobalMenu.qml:45
+#, kde-format
+msgctxt "@menu"
+msgid "Help"
+msgstr "Ajuda"
+
+#: src/ui/GlobalMenu.qml:48
+#, kde-format
+msgctxt "@menu-action"
+msgid "Report Bug…"
+msgstr "Comunicar um Erro…"
+
+#: src/ui/GlobalMenu.qml:54
+#, kde-format
+msgctxt "@menu-action"
+msgid "About Eloquens"
+msgstr "Acerca do Eloquens"
+
+#: src/ui/main.qml:14
+#, kde-format
+msgid "Eloquens"
+msgstr "Eloquens"
+
+#: src/ui/main.qml:75
+#, kde-format
+msgid "Click 'Generate Text' to get started!"
+msgstr "Carregue em 'Gerar o Texto' para começar!"
+
+#: src/ui/PageHeader.qml:19
+#, kde-format
+msgid "Generate Text"
+msgstr "Gerar o Texto"
+
+#: src/ui/PageHeader.qml:33
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr "Copiar para a Área de Transferência"
+
+#: src/ui/PageHeader.qml:52
+#, kde-format
+msgid "Configure Eloquens"
+msgstr "Configurar o Eloquens"
+
+#: src/ui/PageHeader.qml:67
+#, kde-format
+msgid "About Eloquens"
+msgstr "Acerca do Eloquens"
+
+#: src/ui/Settings.qml:14
+#, kde-format
+msgid "Settings"
+msgstr "Configuração"
+
+#: src/ui/Settings.qml:21
+#, kde-format
+msgid "Paragraphs:"
+msgstr "Parágrafos:"
+
+#: src/ui/Settings.qml:38
+#, kde-format
+msgid "Paragraph Length:"
+msgstr "Tamanho do Parágrafo:"
+
+#: src/ui/Settings.qml:68
+#, kde-format
+msgid "Show Bold and Italic text"
+msgstr "Mostrar o Texto em Negrito e Itálico"
+
+#: src/ui/Settings.qml:78
+#, kde-format
+msgid "Show Links"
+msgstr "Mostrar as Ligações"
+
+#: src/ui/Settings.qml:88
+#, kde-format
+msgid "Show Code blocks"
+msgstr "Mostrar os Blocos de Código"
+
+#: src/ui/Settings.qml:98
+#, kde-format
+msgid "Show Unordered Lists"
+msgstr "Mostrar as Listas Não-Ordenadas"
+
+#: src/ui/Settings.qml:108
+#, kde-format
+msgid "Show Ordered Lists"
+msgstr "Mostrar as Listas Ordenadas"
+
+#: src/ui/Settings.qml:117
+#, kde-format
+msgid "Show Description Lists"
+msgstr "Mostrar as Listas de Descrições"
+
+#: src/ui/Settings.qml:127
+#, kde-format
+msgid "Show Blockquotes"
+msgstr "Mostrar os Blocos entre Aspas"
+
+#: src/ui/Settings.qml:137
+#, kde-format
+msgid "Show headings"
+msgstr "Mostrar os Cabeçalhos"
+
+#: src/ui/Settings.qml:147
+#, kde-format
+msgid "All Caps"
+msgstr "Tudo Capitalizado"
