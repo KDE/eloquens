@@ -88,4 +88,10 @@ Kirigami.ApplicationWindow {
             }
         }
     }
+
+    Component.onCompleted: {
+        if (Config.previousText == "") {
+            Controller.fetch()
+        }
+    }
 }
