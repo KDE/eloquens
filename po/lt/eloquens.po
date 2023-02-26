@@ -1,196 +1,195 @@
-# German translations for eloquens package.
-# Copyright (C) 2022 This file is copyright:
+# Lithuanian translations for eloquens package.
+# Copyright (C) 2023 This file is copyright:
 # This file is distributed under the same license as the eloquens package.
-# Frederik Schwarzer <schwarzer@kde.org>, 2022, 2023.
+# Automatically generated, 2023.
 #
-# Automatically generated, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: eloquens\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-08-18 00:48+0000\n"
-"PO-Revision-Date: 2023-02-09 00:41+0100\n"
-"Last-Translator: Frederik Schwarzer <schwarzer@kde.org>\n"
-"Language-Team: German <kde-i18n-de@kde.org>\n"
-"Language: de\n"
+"PO-Revision-Date: 2022-08-18 00:48+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 22.12.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Deutsches KDE-Übersetzerteam"
+msgstr ""
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "kde-i18n-de@kde.org"
+msgstr ""
 
 #: src/main.cpp:37
 #, kde-format
 msgctxt "@title"
 msgid "Eloquens"
-msgstr "Eloquens"
+msgstr ""
 
 #: src/main.cpp:41
 #, kde-format
 msgid "Generate lorem ipsum text"
-msgstr "Generieren Sie den „lorem ipsum“-Text"
+msgstr ""
 
 #: src/main.cpp:45
 #, kde-format
 msgid "© 2022"
-msgstr "Copyright 2022"
+msgstr ""
 
 #: src/main.cpp:46
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr "Felipe Kinoshita"
+msgstr ""
 
 #: src/main.cpp:46
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr "Autor"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr "Datei"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:17
 #, kde-format
 msgctxt "@menu-action"
 msgid "Generate Text"
-msgstr "Text generieren"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:23
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr "Beenden"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:30
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
-msgstr "Bearbeiten"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:33
 #, kde-format
 msgctxt "@menu-action"
 msgid "Copy to Clipboard"
-msgstr "In die Zwischenablage kopieren"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:45
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr "Hilfe"
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:48
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr "Probleme oder Wünsche berichten ..."
+msgstr ""
 
 #: src/ui/GlobalMenu.qml:54
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Eloquens"
-msgstr "Über Eloquens"
+msgstr ""
 
 #: src/ui/main.qml:14
 #, kde-format
 msgid "Eloquens"
-msgstr "Eloquens"
+msgstr ""
 
 #: src/ui/main.qml:75
 #, kde-format
 msgid "Click 'Generate Text' to get started!"
-msgstr "Klicken Sie zum Starten „Text erstellen“."
+msgstr ""
 
 #: src/ui/PageHeader.qml:19
 #, kde-format
 msgid "Generate Text"
-msgstr "Text generieren"
+msgstr ""
 
 #: src/ui/PageHeader.qml:33
 #, kde-format
 msgid "Copy to Clipboard"
-msgstr "In die Zwischenablage kopieren"
+msgstr ""
 
 #: src/ui/PageHeader.qml:52
 #, kde-format
 msgid "Configure Eloquens"
-msgstr "Eloquens einrichten"
+msgstr ""
 
 #: src/ui/PageHeader.qml:67
 #, kde-format
 msgid "About Eloquens"
-msgstr "Über Eloquens"
+msgstr ""
 
 #: src/ui/Settings.qml:14
 #, kde-format
 msgid "Settings"
-msgstr "Einstellungen"
+msgstr ""
 
 #: src/ui/Settings.qml:21
 #, kde-format
 msgid "Paragraphs:"
-msgstr "Absätze:"
+msgstr ""
 
 #: src/ui/Settings.qml:38
 #, kde-format
 msgid "Paragraph Length:"
-msgstr "Absatzlänge:"
+msgstr ""
 
 #: src/ui/Settings.qml:68
 #, kde-format
 msgid "Show Bold and Italic text"
-msgstr "Fett und kursiv gedruckten Text anzeigen"
+msgstr ""
 
 #: src/ui/Settings.qml:78
 #, kde-format
 msgid "Show Links"
-msgstr "Verknüpfungen anzeigen"
+msgstr ""
 
 #: src/ui/Settings.qml:88
 #, kde-format
 msgid "Show Code blocks"
-msgstr "Code-Blöcke anzeigen"
+msgstr ""
 
 #: src/ui/Settings.qml:98
 #, kde-format
 msgid "Show Unordered Lists"
-msgstr "Unsortierte Listen anzeigen"
+msgstr ""
 
 #: src/ui/Settings.qml:108
 #, kde-format
 msgid "Show Ordered Lists"
-msgstr "Sortierte Listen anzeigen"
+msgstr ""
 
 #: src/ui/Settings.qml:117
 #, kde-format
 msgid "Show Description Lists"
-msgstr "Beschreibungslisten anzeigen"
+msgstr ""
 
 #: src/ui/Settings.qml:127
 #, kde-format
 msgid "Show Blockquotes"
-msgstr "Zitatblöcke anzeigen"
+msgstr ""
 
 #: src/ui/Settings.qml:137
 #, kde-format
 msgid "Show headings"
-msgstr "Überschriften anzeigen"
+msgstr ""
 
 #: src/ui/Settings.qml:147
 #, kde-format
 msgid "All Caps"
-msgstr "Großschreibung"
+msgstr ""
