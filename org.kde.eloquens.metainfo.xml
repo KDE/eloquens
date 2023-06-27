@@ -21,6 +21,7 @@
   <name xml:lang="nl">Eloquens</name>
   <name xml:lang="pl">Eloquens</name>
   <name xml:lang="pt">Eloquens</name>
+  <name xml:lang="pt-BR">Eloquens</name>
   <name xml:lang="sk">Eloquens</name>
   <name xml:lang="sl">Eloquens</name>
   <name xml:lang="sv">Eloquens</name>
@@ -42,6 +43,7 @@
   <summary xml:lang="nl">De tekst lorem ipsum genereren</summary>
   <summary xml:lang="pl">Stwórz tekst lorem ipsum</summary>
   <summary xml:lang="pt">Gera o texto de exemplo 'lorem ipsum'</summary>
+  <summary xml:lang="pt-BR">Gera o texto lorem ipsum</summary>
   <summary xml:lang="sk">Generovať lorem ipsum text</summary>
   <summary xml:lang="sl">Generiraj besedilo lorem ipsum</summary>
   <summary xml:lang="sv">Generera lorem ipsum text</summary>
@@ -65,6 +67,7 @@
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pl">Społeczność KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="pt">Comunidade do KDE, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="pt-BR">Comunidade KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sk">KDE komunita, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sv">KDE-gemenskapen, Felipe Kinoshita</developer_name>
@@ -86,6 +89,7 @@
     <p xml:lang="nl">Eloquens biedt u het gemakkelijk genereren van de tekst lorem ipsum, u kunt koppelingen, een ongeordende/geordende lijst, koppen en nog veel meer toevoegen.</p>
     <p xml:lang="pl">Eloquens pozwala na łatwe tworzenie tekstu lorem ipsum, można dodawać linki, listę nieuporządkowaną/uporządkowaną, nagłówki  i wiele innych.</p>
     <p xml:lang="pt">O Eloquens permite-lhe gerar facilmente textos de exemplo 'lorem ipsum', onde poderá adicionar hiperligações, listas ordenadas/desordenadas, cabeçalhos e muito mais.</p>
+    <p xml:lang="pt-BR">O Eloquens permite que você gere facilmente o texto lorem ipsum, você pode adicionar links, lista não ordenada/ordenada, títulos e muito mais.</p>
     <p xml:lang="sl">Eloquens dovoljuje enostavno generiranje besedila lorem ipsum, lahko dodajate povezave, urejene ali neurejene sezname, naslove in drugo.</p>
     <p xml:lang="sv">Eloquens låter dig enkelt generera lorem ipsum text. Du kan lägga till länkar, oordnade och ordnande listor, rubriker, med mera.</p>
     <p xml:lang="tr">Eloquent; kolayca Lorem Ipsum metni oluşturmanıza, içine bağlantılar, sıralı/sırasız listeler, başlıklar ve çok daha fazlasını eklemenize izin verir.</p>
@@ -111,6 +115,7 @@
       <caption xml:lang="nl">Hoofdweergave</caption>
       <caption xml:lang="pl">Widok główny</caption>
       <caption xml:lang="pt">Janela Principal</caption>
+      <caption xml:lang="pt-BR">Vista principal</caption>
       <caption xml:lang="sk">Hlavný pohľad</caption>
       <caption xml:lang="sl">Glavni pogled</caption>
       <caption xml:lang="sv">Huvudvy</caption>
