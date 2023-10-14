@@ -86,7 +86,7 @@ msgstr "Edita"
 #, kde-format
 msgctxt "@menu-action"
 msgid "Copy to Clipboard"
-msgstr "Copia al porta-retalls"
+msgstr "Copia a dins del porta-retalls"
 
 #: src/ui/GlobalMenu.qml:45
 #, kde-format
@@ -124,7 +124,7 @@ msgstr "Genera el text"
 #: src/ui/PageHeader.qml:33
 #, kde-format
 msgid "Copy to Clipboard"
-msgstr "Copia al porta-retalls"
+msgstr "Copia a dins del porta-retalls"
 
 #: src/ui/PageHeader.qml:52
 #, kde-format
