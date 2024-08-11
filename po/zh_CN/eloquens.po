@@ -20,12 +20,12 @@ msgstr ""
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "KDE China, dqfamily"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "kde-china@kde.org, yanluping2009@outlook.com"
 
 #: src/main.cpp:37
 #, kde-format
@@ -111,12 +111,12 @@ msgstr "Eloquens"
 #: src/ui/main.qml:75
 #, kde-format
 msgid "Click 'Generate Text' to get started!"
-msgstr ""
+msgstr "点击“生成文本”开始！"
 
 #: src/ui/PageHeader.qml:19
 #, kde-format
 msgid "Generate Text"
-msgstr ""
+msgstr "生成文本"
 
 #: src/ui/PageHeader.qml:33
 #, kde-format
@@ -126,69 +126,69 @@ msgstr "复制到剪贴板"
 #: src/ui/PageHeader.qml:52
 #, kde-format
 msgid "Configure Eloquens"
-msgstr ""
+msgstr "配置 Eloquens"
 
 #: src/ui/PageHeader.qml:67
 #, kde-format
 msgid "About Eloquens"
-msgstr ""
+msgstr "关于 Eloquens"
 
 #: src/ui/Settings.qml:14
 #, kde-format
 msgid "Settings"
-msgstr ""
+msgstr "设置"
 
 #: src/ui/Settings.qml:21
 #, kde-format
 msgid "Paragraphs:"
-msgstr ""
+msgstr "段落:"
 
 #: src/ui/Settings.qml:38
 #, kde-format
 msgid "Paragraph Length:"
-msgstr ""
+msgstr "段落长度："
 
 #: src/ui/Settings.qml:68
 #, kde-format
 msgid "Show Bold and Italic text"
-msgstr ""
+msgstr "显示粗体和斜体文本"
 
 #: src/ui/Settings.qml:78
 #, kde-format
 msgid "Show Links"
-msgstr ""
+msgstr "显示链接"
 
 #: src/ui/Settings.qml:88
 #, kde-format
 msgid "Show Code blocks"
-msgstr ""
+msgstr "显示代码块"
 
 #: src/ui/Settings.qml:98
 #, kde-format
 msgid "Show Unordered Lists"
-msgstr ""
+msgstr "显示无序列表"
 
 #: src/ui/Settings.qml:108
 #, kde-format
 msgid "Show Ordered Lists"
-msgstr ""
+msgstr "显示有序列表"
 
 #: src/ui/Settings.qml:117
 #, kde-format
 msgid "Show Description Lists"
-msgstr ""
+msgstr "显示描述列表"
 
 #: src/ui/Settings.qml:127
 #, kde-format
 msgid "Show Blockquotes"
-msgstr ""
+msgstr "显示块引用"
 
 #: src/ui/Settings.qml:137
 #, kde-format
 msgid "Show headings"
-msgstr ""
+msgstr "显示标题"
 
 #: src/ui/Settings.qml:147
 #, kde-format
 msgid "All Caps"
-msgstr ""
+msgstr "全部大写"
