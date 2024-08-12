@@ -36,7 +36,7 @@ msgstr "Eloquens"
 #: src/main.cpp:41
 #, kde-format
 msgid "Generate lorem ipsum text"
-msgstr "生成混乱的文本"
+msgstr "生成杂乱无章的文本"
 
 #: src/main.cpp:45
 #, kde-format
