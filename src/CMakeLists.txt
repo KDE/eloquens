@@ -4,7 +4,6 @@
 add_executable(eloquens
     main.cpp
     about.cpp
-    app.cpp
     controller.cpp
     resources.qrc)
 

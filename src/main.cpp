@@ -19,7 +19,6 @@
 constexpr auto APPLICATION_ID = "org.kde.eloquens";
 
 #include "config.h"
-#include "app.h"
 #include "controller.h"
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
@@ -56,9 +55,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     AboutType about;
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "AboutType", &about);
 
-    App application;
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "App", &application);
-
     Controller controller;
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Controller", &controller);
 
@@ -77,18 +73,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     }
 
     KDBusService service(KDBusService::Unique);
-
-    // Restore window size and position
-    const auto rootObjects = engine.rootObjects();
-    for (auto obj : rootObjects) {
-        auto view = qobject_cast<QQuickWindow *>(obj);
-        if (view) {
-            if (view->isVisible()) {
-                application.restoreWindowGeometry(view);
-            }
-            break;
-        }
-    }
 
     return app.exec();
 }
