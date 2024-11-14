@@ -6,10 +6,13 @@
 #include <QObject>
 #include <QJsonObject>
 #include <QNetworkAccessManager>
+#include <QtQml>
 
 class Controller : public QObject
 {
     Q_OBJECT
+    QML_ELEMENT
+    QML_SINGLETON
 
 public:
     explicit Controller(QObject* parent = nullptr);

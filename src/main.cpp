@@ -15,9 +15,6 @@
 #include <KLocalizedString>
 #include <KDBusService>
 
-constexpr auto APPLICATION_ID = "org.kde.eloquens";
-
-#include "config.h"
 #include "controller.h"
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
@@ -47,12 +44,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QGuiApplication::setWindowIcon(QIcon::fromTheme(QStringLiteral("org.kde.eloquens")));
 
     QQmlApplicationEngine engine;
-
-    auto config = Config::self();
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Config", config);
-
-    Controller controller;
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Controller", &controller);
 
     QCommandLineParser parser;
 
