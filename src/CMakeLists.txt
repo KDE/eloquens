@@ -16,11 +16,11 @@ target_link_libraries(eloquens
     Qt::QuickControls2
     Qt::Svg
     Qt::Widgets
-    KF5::I18n
-    KF5::CoreAddons
-    KF5::ConfigCore
-    KF5::ConfigGui
-    KF5::DBusAddons)
+    KF6::I18n
+    KF6::CoreAddons
+    KF6::ConfigCore
+    KF6::ConfigGui
+    KF6::DBusAddons)
 
 kconfig_add_kcfg_files(eloquens GENERATE_MOC config.kcfgc)
 install(TARGETS eloquens ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
