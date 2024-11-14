@@ -5,6 +5,7 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.19 as Kirigami
+import org.kde.config as KConfig
 
 import org.kde.eloquens 1.0
 
@@ -18,22 +19,8 @@ Kirigami.ApplicationWindow {
     minimumWidth: Kirigami.Units.gridUnit * 20
     minimumHeight: Kirigami.Units.gridUnit * 25
 
-    Timer {
-        id: saveWindowGeometryTimer
-        interval: 1000
-        onTriggered: App.saveWindowGeometry(root)
-    }
-
-    Connections {
-        id: saveWindowGeometryConnections
-        enabled: root.visible
-        target: root
-
-        function onClosing() { App.saveWindowGeometry(root); }
-        function onWidthChanged() { saveWindowGeometryTimer.restart(); }
-        function onHeightChanged() { saveWindowGeometryTimer.restart(); }
-        function onXChanged() { saveWindowGeometryTimer.restart(); }
-        function onYChanged() { saveWindowGeometryTimer.restart(); }
+    KConfig.WindowStateSaver {
+        configGroupName: "Main"
     }
 
     Loader {
