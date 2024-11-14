@@ -9,7 +9,6 @@
 #include <QtQml>
 #include <QQuickWindow>
 
-#include "about.h"
 #include "version-eloquens.h"
 #include <KAboutData>
 #include <KLocalizedContext>
@@ -51,9 +50,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
 
     auto config = Config::self();
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Config", config);
-
-    AboutType about;
-    qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "AboutType", &about);
 
     Controller controller;
     qmlRegisterSingletonInstance(APPLICATION_ID, 1, 0, "Controller", &controller);
