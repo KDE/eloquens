@@ -7,7 +7,7 @@ import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.19 as Kirigami
 import org.kde.config as KConfig
 
-import org.kde.eloquens 1.0
+import org.kde.eloquens
 
 Kirigami.ApplicationWindow {
     id: root

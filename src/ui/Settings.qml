@@ -6,7 +6,7 @@ import QtQuick.Controls 2.15 as QQC2
 import QtQuick.Layouts 1.15
 import org.kde.kirigami 2.19 as Kirigami
 
-import org.kde.eloquens 1.0
+import org.kde.eloquens
 
 Kirigami.Page {
     id: settingsPage

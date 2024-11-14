@@ -4,10 +4,18 @@
 add_executable(eloquens
     main.cpp
     about.cpp
-    controller.cpp
-    resources.qrc)
+    controller.cpp)
 
-target_link_libraries(eloquens
+ecm_add_qml_module(eloquens URI "org.kde.eloquens")
+
+ecm_target_qml_sources(eloquens SOURCES
+    ui/About.qml
+    ui/GlobalMenu.qml
+        ui/Main.qml
+    ui/PageHeader.qml
+    ui/Settings.qml)
+
+target_link_libraries(eloquens PRIVATE
     Qt::Core
     Qt::Gui
     Qt::Qml
