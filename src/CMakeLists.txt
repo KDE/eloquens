@@ -28,5 +28,14 @@ target_link_libraries(eloquens PRIVATE
     KF6::ConfigGui
     KF6::DBusAddons)
 
-kconfig_add_kcfg_files(eloquens GENERATE_MOC config.kcfgc)
+kconfig_target_kcfg_file(eloquens
+        FILE config.kcfg
+        CLASS_NAME Config
+        MUTATORS
+        DEFAULT_VALUE_GETTERS
+        GENERATE_PROPERTIES
+        SINGLETON
+        PARENT_IN_CONSTRUCTOR
+        GENERATE_MOC
+        QML_REGISTRATION)
 install(TARGETS eloquens ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})
