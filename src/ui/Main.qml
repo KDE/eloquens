@@ -46,6 +46,7 @@ Kirigami.ApplicationWindow {
                 textFormat: TextEdit.RichText
                 textMargin: 0
                 readOnly: true
+                wrapMode: TextEdit.WordWrap
 
                 font.family: "serif";
                 font.pixelSize: Kirigami.Units.gridUnit
