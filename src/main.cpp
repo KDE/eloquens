@@ -25,6 +25,8 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     QApplication app(argc, argv);
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
 
+    KLocalizedString::setApplicationDomain("eloquens");
+
     KAboutData aboutData(
                          // The program name used internally.
                          QStringLiteral("eloquens"),
@@ -52,7 +54,6 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     aboutData.processCommandLine(&parser);
 
     engine.rootContext()->setContextObject(new KLocalizedContext(&engine));
-    KLocalizedString::setApplicationDomain("eloquens");
     engine.loadFromModule(QStringLiteral("org.kde.eloquens"), QStringLiteral("Main"));
 
     if (engine.rootObjects().isEmpty()) {
