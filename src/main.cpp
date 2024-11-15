@@ -15,13 +15,9 @@
 #include <KLocalizedString>
 #include <KDBusService>
 
-#include "controller.h"
 
 Q_DECL_EXPORT int main(int argc, char *argv[])
 {
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    QGuiApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-#endif
     QApplication app(argc, argv);
     QCoreApplication::setOrganizationName(QStringLiteral("KDE"));
 
