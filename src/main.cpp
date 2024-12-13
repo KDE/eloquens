@@ -3,11 +3,10 @@
 
 #include <QApplication>
 #include <QCommandLineParser>
-#include <QIcon>
 #include <QQmlApplicationEngine>
-#include <QUrl>
 #include <QQmlEngine>
 #include <QQuickWindow>
+#include <QQmlContext>
 
 #include "version-eloquens.h"
 #include <KAboutData>
