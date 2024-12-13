@@ -6,7 +6,7 @@
 #include <QIcon>
 #include <QQmlApplicationEngine>
 #include <QUrl>
-#include <QtQml>
+#include <QQmlEngine>
 #include <QQuickWindow>
 
 #include "version-eloquens.h"

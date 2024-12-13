@@ -6,7 +6,7 @@
 #include <QObject>
 #include <QJsonObject>
 #include <QNetworkAccessManager>
-#include <QtQml>
+#include <QQmlEngine>
 
 class Controller : public QObject
 {
