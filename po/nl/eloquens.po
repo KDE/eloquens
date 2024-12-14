@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eloquens\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:37+0000\n"
+"POT-Creation-Date: 2024-12-14 00:55+0000\n"
 "PO-Revision-Date: 2022-06-16 12:45+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
@@ -27,29 +27,29 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "freekdekruijf@kde.nl"
 
-#: src/main.cpp:37
+#: src/main.cpp:29
 #, kde-format
 msgctxt "@title"
 msgid "Eloquens"
 msgstr "Eloquens"
 
-#: src/main.cpp:41
+#: src/main.cpp:33
 #, kde-format
 msgid "Generate lorem ipsum text"
 msgstr "De tekst lorem ipsum genereren"
 
-#: src/main.cpp:45
+#: src/main.cpp:37
 #, kde-format
 msgid "© 2022"
 msgstr "© 2022"
 
-#: src/main.cpp:46
+#: src/main.cpp:38
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
 msgstr "Felipe Kinoshita"
 
-#: src/main.cpp:46
+#: src/main.cpp:38
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
@@ -103,12 +103,12 @@ msgctxt "@menu-action"
 msgid "About Eloquens"
 msgstr "Info over Eloquens"
 
-#: src/ui/main.qml:14
+#: src/ui/Main.qml:15
 #, kde-format
 msgid "Eloquens"
 msgstr "Eloquens"
 
-#: src/ui/main.qml:75
+#: src/ui/Main.qml:63
 #, kde-format
 msgid "Click 'Generate Text' to get started!"
 msgstr "Klik op 'Tekst genereren' om te beginnen!"
