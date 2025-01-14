@@ -23,6 +23,7 @@
   <name xml:lang="it">Eloquens</name>
   <name xml:lang="ka">Eloquens</name>
   <name xml:lang="ko">Eloquens</name>
+  <name xml:lang="lt">Eloquens</name>
   <name xml:lang="lv">Eloquens</name>
   <name xml:lang="nl">Eloquens</name>
   <name xml:lang="nn">Eloquens</name>
@@ -55,6 +56,7 @@
   <summary xml:lang="it">Genera il testo lorem ipsum</summary>
   <summary xml:lang="ka">Lorem Ipsum-ის ტექსტის გენერაცია</summary>
   <summary xml:lang="ko">자리 비움 문자열 생성</summary>
+  <summary xml:lang="lt">Generuoti lorem ipsum tekstą</summary>
   <summary xml:lang="lv">„Lorem ipsum“ jeb bezjēdzīga teksta ģenerators</summary>
   <summary xml:lang="nl">De tekst lorem ipsum genereren</summary>
   <summary xml:lang="nn">Generer eksempelteksten «lorem ipsum»</summary>
@@ -89,6 +91,7 @@
   <developer_name xml:lang="it">Comunità KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="ka">KDE-ის საზოგადოება, ფელიპე კინოშიტა</developer_name>
   <developer_name xml:lang="ko">KDE 커뮤니티, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="lt">KDE bendruomenė, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="lv">KDE kopiena, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nl">KDE gemeenschap, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="nn">KDE-fellesskapet, Felipe Kinoshita</developer_name>
@@ -121,6 +124,7 @@
     <p xml:lang="it">Eloquens ti permette di generare facilmente il testo lorem ipsum, puoi aggiungere collegamenti, elenchi non ordinati/ordinati, intestazioni e molto altro.</p>
     <p xml:lang="ka">Eloquens  საშუალებას გაძლევთ დააგენერიროთ უაზრო ტექსტი. შეგიძლიათ დაამატოთ ბმულები, დაულაგებელი ან დალაგებული სიები, თავსართები და ბევრი სხვა.</p>
     <p xml:lang="ko">Eloqueens에서는 자리 비움 문자열을 생성할 수 있으며, 링크, 목록, 머릿글 등을 추가할 수 있습니다.</p>
+    <p xml:lang="lt">Eloquens leidžia lengvai generuoti lorem ipsum tekstą, galite pridėti nuorodų, netvarkųjį/tvarkųjį sąrašą, antraštes ir žymiai daugiau.</p>
     <p xml:lang="lv">„Eloquens“ ļauj viegli ģenerēt tā saukto „lorem ipsum“ tekstu kopā ar saitēm, sakārtotiem/nesakārtotiem sarakstiem, virsrakstiem un citiem teksta elementiem.</p>
     <p xml:lang="nl">Eloquens biedt u het gemakkelijk genereren van de tekst lorem ipsum, u kunt koppelingen, een ongeordende/geordende lijst, koppen en nog veel meer toevoegen.</p>
     <p xml:lang="nn">Med Eloquens kan du enkelt generera eksempelteksten «lorem ipsum», leggja til lenkjer, punktlister og nummererte lister, overskrifter og mykje anna.</p>
@@ -157,6 +161,7 @@
       <caption xml:lang="it">La vista principale</caption>
       <caption xml:lang="ka">მთავარი ხედი</caption>
       <caption xml:lang="ko">주 보기</caption>
+      <caption xml:lang="lt">Pagrindinis rodinys</caption>
       <caption xml:lang="lv">Pamata skats</caption>
       <caption xml:lang="nl">Hoofdweergave</caption>
       <caption xml:lang="nn">Hovudvising</caption>
