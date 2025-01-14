@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: eloquens\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2024-12-14 00:55+0000\n"
-"PO-Revision-Date: 2022-08-18 00:48+0000\n"
+"PO-Revision-Date: 2025-01-14 00:05+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: lt\n"
@@ -17,179 +17,180 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || n"
 "%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 3.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Moo"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "<>"
 
 #: src/main.cpp:29
 #, kde-format
 msgctxt "@title"
 msgid "Eloquens"
-msgstr ""
+msgstr "Eloquens"
 
 #: src/main.cpp:33
 #, kde-format
 msgid "Generate lorem ipsum text"
-msgstr ""
+msgstr "Generuoti lorem ipsum tekstą"
 
 #: src/main.cpp:37
 #, kde-format
 msgid "© 2022"
-msgstr ""
+msgstr "© 2022"
 
 #: src/main.cpp:38
 #, kde-format
 msgctxt "@info:credit"
 msgid "Felipe Kinoshita"
-msgstr ""
+msgstr "Felipe Kinoshita"
 
 #: src/main.cpp:38
 #, kde-format
 msgctxt "@info:credit"
 msgid "Author"
-msgstr ""
+msgstr "Autorius"
 
 #: src/ui/GlobalMenu.qml:14
 #, kde-format
 msgctxt "@menu"
 msgid "File"
-msgstr ""
+msgstr "Failas"
 
 #: src/ui/GlobalMenu.qml:17
 #, kde-format
 msgctxt "@menu-action"
 msgid "Generate Text"
-msgstr ""
+msgstr "Generuoti tekstą"
 
 #: src/ui/GlobalMenu.qml:23
 #, kde-format
 msgctxt "@menu-action"
 msgid "Quit"
-msgstr ""
+msgstr "Išjungti"
 
 #: src/ui/GlobalMenu.qml:30
 #, kde-format
 msgctxt "@menu"
 msgid "Edit"
-msgstr ""
+msgstr "Taisa"
 
 #: src/ui/GlobalMenu.qml:33
 #, kde-format
 msgctxt "@menu-action"
 msgid "Copy to Clipboard"
-msgstr ""
+msgstr "Kopijuoti į iškarpinę"
 
 #: src/ui/GlobalMenu.qml:45
 #, kde-format
 msgctxt "@menu"
 msgid "Help"
-msgstr ""
+msgstr "Pagalba"
 
 #: src/ui/GlobalMenu.qml:48
 #, kde-format
 msgctxt "@menu-action"
 msgid "Report Bug…"
-msgstr ""
+msgstr "Pranešti apie programos klaidą…"
 
 #: src/ui/GlobalMenu.qml:54
 #, kde-format
 msgctxt "@menu-action"
 msgid "About Eloquens"
-msgstr ""
+msgstr "Apie Eloquens"
 
 #: src/ui/Main.qml:15
 #, kde-format
 msgid "Eloquens"
-msgstr ""
+msgstr "Eloquens"
 
 #: src/ui/Main.qml:63
 #, kde-format
 msgid "Click 'Generate Text' to get started!"
-msgstr ""
+msgstr "Norėdami pradėti spustėlėkite „Generuoti tekstą“!"
 
 #: src/ui/PageHeader.qml:19
 #, kde-format
 msgid "Generate Text"
-msgstr ""
+msgstr "Generuoti tekstą"
 
 #: src/ui/PageHeader.qml:33
 #, kde-format
 msgid "Copy to Clipboard"
-msgstr ""
+msgstr "Kopijuoti į iškarpinę"
 
 #: src/ui/PageHeader.qml:52
 #, kde-format
 msgid "Configure Eloquens"
-msgstr ""
+msgstr "Konfigūruoti Eloquens"
 
 #: src/ui/PageHeader.qml:67
 #, kde-format
 msgid "About Eloquens"
-msgstr ""
+msgstr "Apie Eloquens"
 
 #: src/ui/Settings.qml:14
 #, kde-format
 msgid "Settings"
-msgstr ""
+msgstr "Nuostatos"
 
 #: src/ui/Settings.qml:21
 #, kde-format
 msgid "Paragraphs:"
-msgstr ""
+msgstr "Pastraipos:"
 
 #: src/ui/Settings.qml:38
 #, kde-format
 msgid "Paragraph Length:"
-msgstr ""
+msgstr "Pastraipos ilgis:"
 
 #: src/ui/Settings.qml:68
 #, kde-format
 msgid "Show Bold and Italic text"
-msgstr ""
+msgstr "Rodyti pusjuodį ir pasvirąjį tekstą"
 
 #: src/ui/Settings.qml:78
 #, kde-format
 msgid "Show Links"
-msgstr ""
+msgstr "Rodyti nuorodas"
 
 #: src/ui/Settings.qml:88
 #, kde-format
 msgid "Show Code blocks"
-msgstr ""
+msgstr "Rodyti kodo blokus"
 
 #: src/ui/Settings.qml:98
 #, kde-format
 msgid "Show Unordered Lists"
-msgstr ""
+msgstr "Rodyti netvarkiuosius sąrašus"
 
 #: src/ui/Settings.qml:108
 #, kde-format
 msgid "Show Ordered Lists"
-msgstr ""
+msgstr "Rodyti tvarkiuosius sąrašus"
 
 #: src/ui/Settings.qml:117
 #, kde-format
 msgid "Show Description Lists"
-msgstr ""
+msgstr "Rodyti aprašo sąrašus"
 
 #: src/ui/Settings.qml:127
 #, kde-format
 msgid "Show Blockquotes"
-msgstr ""
+msgstr "Rodyti citatas"
 
 #: src/ui/Settings.qml:137
 #, kde-format
 msgid "Show headings"
-msgstr ""
+msgstr "Rodyti antraštes"
 
 #: src/ui/Settings.qml:147
 #, kde-format
 msgid "All Caps"
-msgstr ""
+msgstr "Viskas didžiosiomis raidėmis"
