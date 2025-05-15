@@ -3,6 +3,7 @@
 
 [Desktop Entry]
 Name=Eloquens
+Name[ar]=بيان
 Name[ca]=Eloquens
 Name[ca@valencia]=Eloquens
 Name[cs]=Eloquens
@@ -38,6 +39,7 @@ Name[x-test]=xxEloquensxx
 Name[zh_CN]=Eloquens
 Name[zh_TW]=Eloquens
 Comment=Generate the lorem ipsum text
+Comment[ar]=ولد نص لوريم إيبسوم
 Comment[ca]=Genera el text «lorem ipsum»
 Comment[ca@valencia]=Genera el text «lorem ipsum»
 Comment[de]=Generieren Sie den „lorem ipsum“-Text
