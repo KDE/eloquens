@@ -114,7 +114,7 @@ msgstr "Eloquens"
 #: src/ui/Main.qml:63
 #, kde-format
 msgid "Click 'Generate Text' to get started!"
-msgstr "Feu clic en «Genera el text» per a començar!"
+msgstr "Cliqueu damunt «Genera el text» per a començar!"
 
 #: src/ui/PageHeader.qml:19
 #, kde-format
