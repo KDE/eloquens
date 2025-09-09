@@ -37,7 +37,6 @@
   <name xml:lang="sv">Eloquens</name>
   <name xml:lang="tr">Eloquens</name>
   <name xml:lang="uk">Eloquens</name>
-  <name xml:lang="x-test">xxEloquensxx</name>
   <name xml:lang="zh-CN">Eloquens</name>
   <name xml:lang="zh-TW">Eloquens</name>
   <summary>Generate the lorem ipsum text</summary>
@@ -71,7 +70,6 @@
   <summary xml:lang="sv">Generera lorem ipsum text</summary>
   <summary xml:lang="tr">Lorem Ipsum Metni Üreteci</summary>
   <summary xml:lang="uk">Створення тексту-замінника Lorem Ipsum</summary>
-  <summary xml:lang="x-test">xxGenerate the lorem ipsum textxx</summary>
   <summary xml:lang="zh-CN">生成杂乱无章的文本</summary>
   <summary xml:lang="zh-TW">產生 lorem ipsum 亂數假文</summary>
   <metadata_license>CC0-1.0</metadata_license>
@@ -107,7 +105,6 @@
   <developer_name xml:lang="sv">KDE-gemenskapen, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
-  <developer_name xml:lang="x-test">xxKDE Community, Felipe Kinoshitaxx</developer_name>
   <developer_name xml:lang="zh-CN">KDE 社区，Felipe Kinoshita</developer_name>
   <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
   <description>
@@ -141,7 +138,6 @@
     <p xml:lang="sv">Eloquens låter dig enkelt generera lorem ipsum text. Du kan lägga till länkar, oordnade och ordnande listor, rubriker, med mera.</p>
     <p xml:lang="tr">Eloquent; kolayca Lorem Ipsum metni oluşturmanıza, içine bağlantılar, sıralı/sırasız listeler, başlıklar ve çok daha fazlasını eklemenize izin verir.</p>
     <p xml:lang="uk">Eloquens спрощує створення текстів-замінників lorem ipsum; ви можете додавати посилання, неупорядковані і упорядковані списки, заголовки та інші елементи.</p>
-    <p xml:lang="x-test">xxEloquens allows you to easily generate the lorem ipsum text, you can add links, unordered/ordered list, headings and much more.xx</p>
     <p xml:lang="zh-CN">Eloquens 允许您轻松生成杂乱无章的文本，您可以添加链接、无序/有序的列表、标题和更多内容。</p>
     <p xml:lang="zh-TW">Eloquens 讓您簡單地產生 lorem ipsum 亂數假文。您還可以加入連結、無序或有序清單、標題等等到假文中。</p>
   </description>
@@ -180,7 +176,6 @@
       <caption xml:lang="sv">Huvudvy</caption>
       <caption xml:lang="tr">Ana Görünüm</caption>
       <caption xml:lang="uk">Головне вікно</caption>
-      <caption xml:lang="x-test">xxMain Viewxx</caption>
       <caption xml:lang="zh-CN">主视图</caption>
       <caption xml:lang="zh-TW">主檢視</caption>
     </screenshot>
