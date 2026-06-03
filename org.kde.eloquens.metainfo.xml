@@ -71,6 +71,7 @@
   <summary xml:lang="sl">Generiraj besedilo lorem ipsum</summary>
   <summary xml:lang="sv">Generera lorem ipsum text</summary>
   <summary xml:lang="tr">Lorem Ipsum Metni Üreteci</summary>
+  <summary xml:lang="ug">lorem ipsum تېكىستى ھاسىللايدۇ</summary>
   <summary xml:lang="uk">Створення тексту-замінника Lorem Ipsum</summary>
   <summary xml:lang="zh-CN">生成杂乱无章的文本</summary>
   <summary xml:lang="zh-TW">產生 lorem ipsum 亂數假文</summary>
@@ -107,6 +108,7 @@
   <developer_name xml:lang="sl">Skupnost KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="sv">KDE-gemenskapen, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="tr">KDE Topluluğu, Felipe Kinoshita</developer_name>
+  <developer_name xml:lang="ug">KDE جامائىتى، Felipe Kinoshita</developer_name>
   <developer_name xml:lang="uk">Спільнота KDE, Felipe Kinoshita</developer_name>
   <developer_name xml:lang="zh-CN">KDE 社区，Felipe Kinoshita</developer_name>
   <developer_name xml:lang="zh-TW">KDE 社群、Felipe Kinoshita</developer_name>
@@ -181,6 +183,7 @@
       <caption xml:lang="sl">Glavni pogled</caption>
       <caption xml:lang="sv">Huvudvy</caption>
       <caption xml:lang="tr">Ana Görünüm</caption>
+      <caption xml:lang="ug">ئاساسىي كۆرۈنۈش</caption>
       <caption xml:lang="uk">Головне вікно</caption>
       <caption xml:lang="zh-CN">主视图</caption>
       <caption xml:lang="zh-TW">主檢視</caption>
